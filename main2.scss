@@ -1,0 +1,45 @@
+$carousel-bgcolor:#fff;
+$carousel-bghover:#dc3545;
+
+
+
+.carousel{
+    // z-index: 0;
+.carousel-control-prev,
+.carousel-control-next{
+    position: absolute;
+    height: 4vh;
+    width: 4vw;
+    background-color: $carousel-bgcolor;
+    top:50%;
+    opacity: 1;
+    &:hover{
+        background-color: $carousel-bghover;
+    }
+    &:hover .fas{
+        color: #fff !important;
+    }
+    }
+.carousel-control-next{
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+     
+}
+.carousel-control-prev{
+ border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+}
+ 
+.features{
+img{
+    opacity: .7;
+    max-width: 100px;
+    max-height: 100px;
+    transition: opacity 650ms;
+    &:hover{
+        opacity: 1
+    }
+    
+}}
